@@ -1104,6 +1104,7 @@ dependencies = [
  "env_logger",
  "ewebsock",
  "log",
+ "rustls",
  "tokio",
  "wasm-bindgen-futures",
  "web-sys",
@@ -2574,6 +2575,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5065c3f250cbd332cd894be57c40fa52387247659b14a2d6041d121547903b1b"
 dependencies = [
  "once_cell",
+ "ring",
  "rustls-pki-types",
  "rustls-webpki",
  "subtle",

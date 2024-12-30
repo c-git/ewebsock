@@ -22,6 +22,7 @@ ewebsock = { workspace = true, features = ["tls"] }
 eframe.workspace = true
 log.workspace = true
 env_logger.workspace = true
+rustls = { workspace = true, features = ["ring"] }
 
 # native:
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
